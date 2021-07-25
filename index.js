@@ -3,7 +3,6 @@ const app = express();
 const Socketio = require("socket.io");
 const http = require("http");
 const port = process.env.PORT || 5000;
-const { addUser, getUser, removeUser, getUsersInRoom } = require("./users");
 // const axios = require('axios');
 const fs = require("fs");
 const path = require("path");
